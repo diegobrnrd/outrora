@@ -45,15 +45,14 @@ RPG **interativo** onde suas escolhas moldam o desenvolvimento da história.
 │   └── story.py
 └── assets/
     ├── images/
-    ├── audio/
-    └── video/
+    └── audio/
 ```
 
 ### Pastas e arquivos principais
 
 - `main.py`: ponto de entrada da aplicação.
 - `data/story.py`: dados/estrutura da história (ex.: cenas, escolhas e consequências).
-- `assets/`: recursos do jogo (imagens, áudio e vídeo).
+- `assets/`: recursos do jogo (imagens e áudio).
 
 ---
 
