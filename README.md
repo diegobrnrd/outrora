@@ -125,13 +125,13 @@ python main.py
 
 ---
 
+## 👤 Autor
+
+[**Diego Bernardo**](https://github.com/diegobrnrd)
+
+---
+
 ## Licença
 
 Este projeto está licenciado sob a **Apache License 2.0**.  
 Veja o arquivo [LICENSE](LICENSE).
-
----
-
-## Autor
-
-Feito por **Diego** ([@diegobrnrd](https://github.com/diegobrnrd)).
