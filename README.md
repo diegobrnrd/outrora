@@ -2,13 +2,13 @@
 
 RPG interativo onde as escolhas do jogador moldam o desenvolvimento da história.
 
-![Tela Inicial](assets/images/tela_inicial_outrora.jpg)
+![Tela Inicial](assets/images/tela_inicial.png)
 
 ## Tecnologias / Framework
 
-- Python
-- Kivy
-- KivyMD
+![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
+![Kivy](https://img.shields.io/badge/Kivy-333333?style=for-the-badge&logo=python&logoColor=white)
+![KivyMD](https://img.shields.io/badge/KivyMD-13505B?style=for-the-badge&logo=materialdesign&logoColor=white)
 
 ## Pré-requisitos
 
