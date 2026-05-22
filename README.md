@@ -116,7 +116,7 @@ python main.py
 
 ---
 
-## Roadmap (opcional)
+## Roadmap (ideias)
 
 - [ ] Novas ramificações e finais alternativos
 - [ ] Melhorias na UI/UX
