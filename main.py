@@ -438,15 +438,6 @@ class TelaHistoria(Screen):
 
         texto_base = estado["pergunta"].strip()
 
-        # O estado 13 do story.py está vazio.
-        # Aqui mantemos uma frase para a tela não ficar sem narrativa.
-        if not texto_base:
-            texto_base = (
-                "A porta da cabana permanece diante de você.\n"
-                "A madeira parece antiga demais para pertencer apenas a este lugar.\n"
-                "Cada escolha soa como uma batida dentro da própria memória."
-            )
-
         texto_pergunta = MDLabel(
             text="",
             halign="left",
