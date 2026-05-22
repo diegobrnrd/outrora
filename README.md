@@ -1,19 +1,34 @@
 # Outrora
 
-RPG interativo onde as escolhas do jogador moldam o desenvolvimento da história.
+RPG **interativo** onde suas escolhas moldam o desenvolvimento da história.
 
 ![Tela Inicial](assets/images/tela_inicial.png)
 
-## Tecnologias / Framework
+---
+
+## Visão geral
+
+**Outrora** é um jogo narrativo feito em **Python** com **Kivy/KivyMD**, focado em decisões do jogador, ramificações e progressão da história.
+
+---
+
+## Tecnologias / Frameworks
 
 ![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
 ![Kivy](https://img.shields.io/badge/Kivy-333333?style=for-the-badge&logo=python&logoColor=white)
 ![KivyMD](https://img.shields.io/badge/KivyMD-13505B?style=for-the-badge&logo=materialdesign&logoColor=white)
 
-## Pré-requisitos
+---
 
-- **Python 3.8 a 3.13** (recomendado no Windows: **3.12** ou **3.13**)
+## Requisitos
+
+- **Python 3.8 a 3.13**  
+  - Recomendado no Windows: **Python 3.12** ou **3.13**
 - Dependências instaladas via `requirements.txt`
+
+> Dica: usar ambiente virtual (`venv`) ajuda a evitar conflitos de dependências.
+
+---
 
 ## Estrutura do projeto
 
@@ -33,6 +48,14 @@ RPG interativo onde as escolhas do jogador moldam o desenvolvimento da história
     ├── audio/
     └── video/
 ```
+
+### Pastas e arquivos principais
+
+- `main.py`: ponto de entrada da aplicação.
+- `data/story.py`: dados/estrutura da história (ex.: cenas, escolhas e consequências).
+- `assets/`: recursos do jogo (imagens, áudio e vídeo).
+
+---
 
 ## Como executar (Windows / Linux / macOS)
 
@@ -78,6 +101,38 @@ pip install -r requirements.txt
 python main.py
 ```
 
+---
+
+## Solução de problemas (rápido)
+
+- **`python` não encontrado**: verifique se o Python está instalado e no `PATH`.
+- **Erro ao instalar dependências**: atualize o pip:
+  ```bash
+  python -m pip install --upgrade pip
+  ```
+- **Ambiente virtual não ativa no PowerShell**: talvez seja necessário liberar scripts:
+  ```powershell
+  Set-ExecutionPolicy -Scope CurrentUser RemoteSigned
+  ```
+
+---
+
+## Roadmap (opcional)
+
+- [ ] Novas ramificações e finais alternativos
+- [ ] Melhorias na UI/UX
+- [ ] Trilha sonora e efeitos sonoros integrados
+- [ ] Empacotamento para Windows (executável)
+
+---
+
 ## Licença
 
-Este projeto está licenciado sob a [Apache License 2.0](LICENSE).
+Este projeto está licenciado sob a **Apache License 2.0**.  
+Veja o arquivo [LICENSE](LICENSE).
+
+---
+
+## Autor
+
+Feito por **Diego** ([@diegobrnrd](https://github.com/diegobrnrd)).
