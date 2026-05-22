@@ -2,13 +2,7 @@
 
 RPG interativo onde as escolhas do jogador moldam o desenvolvimento da história.
 
-![Tela Inicial](assets/images/tela_inicial.jpg)
-
-Projeto elaborado como componente da disciplina PISI I (Projeto Interdisciplinar de Sistemas de Informação I).
-
-## Descrição do Projeto
-
-O projeto trata-se de um RPG interativo onde as escolhas do jogador moldam o desenvolvimento da história.
+![Tela Inicial](assets/images/tela_inicial_outrora.jpg)
 
 ## Tecnologias / Framework
 
@@ -25,6 +19,10 @@ O projeto trata-se de um RPG interativo onde as escolhas do jogador moldam o des
 
 ```text
 .
+├── .gitattributes
+├── .gitignore
+├── LICENSE
+├── README.md
 ├── main.py
 ├── requirements.txt
 ├── data/
@@ -79,38 +77,6 @@ pip install -r requirements.txt
 ```bash
 python main.py
 ```
-
-## Assets (arquivos de mídia)
-
-O jogo depende dos arquivos dentro da pasta `assets/`:
-
-- `assets/images/` (imagens)
-- `assets/audio/` (músicas)
-- `assets/video/` (vídeos)
-
-Arquivos esperados (exemplo):
-
-- `assets/images/tela_inicial.jpg`
-- `assets/images/historia.jpg`
-- `assets/images/Outrora.png`
-- `assets/audio/musica.mp3`
-- `assets/audio/musica_2.mp3`
-- `assets/audio/musica_3.mp3`
-- `assets/audio/musica_4.mp3`
-- `assets/video/creditos.mp4`
-
-## Vídeo de créditos
-
-O jogo tenta reproduzir `assets/video/creditos.mp4`.
-
-- Com `ffpyplayer` instalado, o vídeo roda normalmente.
-- Caso o provedor de vídeo não esteja disponível no ambiente, o jogo exibe automaticamente uma tela de créditos alternativa (fallback) com texto e botão de fechar.
-
-## Narrativa
-
-Utilizei o Xmind para elaborar o mapeamento da narrativa do jogo.
-
-![Narrativa](assets/images/Outrora.png)
 
 ## Licença
 
