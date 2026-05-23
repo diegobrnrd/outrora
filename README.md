@@ -3,12 +3,8 @@
 RPG **interativo** onde suas escolhas moldam o desenvolvimento da história.
 
 ![Tela Inicial](assets/images/tela_inicial.png)
-
----
-
-## Visão geral
-
-**Outrora** é um jogo narrativo feito em **Python** com **Kivy/KivyMD**, focado em decisões do jogador, ramificações e progressão da história.
+![Firmamento](assets/images/firmamento.png)
+![Créditos](assets/images/creditos.png)
 
 ---
 
